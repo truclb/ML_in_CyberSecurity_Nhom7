@@ -16,7 +16,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from tensorflow.keras.models import Model, load_model
 
 #data = pd.read_csv("/content/drive/MyDrive/MLinCybersecurity/train_data_10.csv")
-data = pd.read_csv("/content/drive/MyDrive/MLinCybersecurity/train.csv")
+data = pd.read_csv("./data/test_10.csv")
 # 1. Loại bỏ các hàng chứa giá trị NaN hoặc điền giá trị trung bình
 data_cleaned = data.fillna(0)  # Hoặc .dropna()
 
